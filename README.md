@@ -64,8 +64,13 @@ Aplicar conceitos de desenvolvimento web, organização de interfaces, estiliza�
 
 ![Reservas](screenshots/reservas.jpg)
 
+--
+
 ## Autor
 
 Fábio Almeida
 
 Projeto desenvolvido para fins acadêmicos.
+
+## Acesso ao Projeto
+https://fabiocodeti-cloud.github.io/Restaurante-Comeu-Morreu/

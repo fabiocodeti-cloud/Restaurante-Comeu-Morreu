@@ -42,6 +42,28 @@ ProjetoWeb/
 
 Aplicar conceitos de desenvolvimento web, organização de interfaces, estilização com CSS e manipulação de comportamento com JavaScript.
 
+## Capturas de Tela
+
+### Página Inicial
+
+![Página Inicial](screenshots/home.jpg)
+
+### Login
+
+![Login](screenshots/login.jpg)
+
+### Cardápio
+
+![Cardápio](screenshots/cardapio.jpg)
+
+### Mensagens
+
+![Mensagem](screenshots/mensagem.jpg)
+
+### Reservas
+
+![Reservas](screenshots/reservas.jpg)
+
 ## Autor
 
 Fábio Almeida

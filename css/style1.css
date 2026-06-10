@@ -338,67 +338,185 @@ footer p{
 }
 
 @media (max-width: 768px){
+
+    /* HEADER */
+
     header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 10px;
+
+        padding: 15px;
         height: auto;
-    }
-    nav ul{
+
         display: flex;
         flex-direction: column;
+
         align-items: center;
-        gap: 15px;
+
     }
-    .banner-principal h1{
-        font-size: 2.5rem;
-    }
+
     .logo{
+
         position: static;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+
     }
+
     .logo img{
-        width: 120px;
-        height: 120px;
+
+        width: 100px;
+        height: 100px;
+
     }
+
+    nav{
+
+        width: 100%;
+
+    }
+
+    nav ul{
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 12px;
+
+    }
+
+    nav ul li a{
+
+        font-size: 14px;
+
+    }
+
+    /* BANNER */
+
+    .banner-principal h1{
+
+        font-size: 3rem;
+
+    }
+
     .banner-principal p{
-        font-size: 1rem;
-    }
-    .textodecima, .textodecima-morreudepaixao{
-        font-size: 2rem;
-    }
-    section h2{
-        font-size: 2rem;
-    }
-    section p{
+
+        font-size: 1.1rem;
+
         width: 90%;
+
+    }
+
+    /* TEXTOS */
+
+    .textodecima,
+    .textodecima-morreudepaixao{
+
+        font-size: 2rem;
+
+    }
+
+    section h2{
+
+        font-size: 2.2rem;
+
+    }
+
+    section p{
+
+        width: 90%;
+
         max-width: none;
-        font-size: 1rem;
-        line-height: 1.8;
+
+        font-size: 1.1rem;
+
+        line-height: 1.7;
+
+        letter-spacing: 1px;
+
     }
+
+    /* CARDÁPIO */
+
+    .textocardapio{
+
+        font-size: 1.1rem;
+
+        margin-bottom: 50px;
+
+    }
+
+    .cardapio-container{
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
     .prato{
-        width: 100%;
+
+        width: 95%;
+
         min-width: auto;
+
     }
+
+    .prato h3{
+
+        font-size: 2rem;
+
+    }
+
+    /* GALERIA */
+
     .galeria-container{
+
         grid-template-columns: 1fr;
+
+        gap: 20px;
+
     }
+
     .galeria-container img{
-        width: 100%;
-        height: auto;
+
+        height: 300px;
+
     }
+
+    /* CONTATO */
+
+    #contato h2{
+
+        margin-top: 40px;
+
+    }
+
+    .texto-contato{
+
+        width: 90%;
+
+    }
+
     .form-contato{
-        width: 100%;
+
+        width: 95%;
+
     }
-    .cardapio-container img{
-        width: 100%;
-        height: auto;
+
+    /* FOOTER */
+
+    .logo-footer{
+
+        font-size: 1.2rem;
+
+        letter-spacing: 2px;
+
     }
-    .cardapio-container h2{
-        font-size: 2rem;
+
+    footer p{
+
+        font-size: 1rem;
+
     }
-    footer h2{
-        font-size: 2rem;
-    }
+
 }

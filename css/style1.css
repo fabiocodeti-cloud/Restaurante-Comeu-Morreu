@@ -339,22 +339,28 @@ footer p{
 
 @media (max-width: 768px){
     header{
-        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
         height: auto;
     }
     nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: 15px;
-        flex-wrap: wrap;
     }
     .banner-principal h1{
         font-size: 2.5rem;
     }
     .logo{
-        left: 20px;
+        position: static;
+        margin-bottom: 20px;
     }
     .logo img{
-        width: 90px;
-        height: 90px;
+        width: 120px;
+        height: 120px;
     }
     .banner-principal p{
         font-size: 1rem;
@@ -366,8 +372,10 @@ footer p{
         font-size: 2rem;
     }
     section p{
+        width: 90%;
+        max-width: none;
         font-size: 1rem;
-        padding: 0 15px;
+        line-height: 1.8;
     }
     .prato{
         width: 100%;
@@ -382,5 +390,15 @@ footer p{
     }
     .form-contato{
         width: 100%;
+    }
+    .cardapio-container img{
+        width: 100%;
+        height: auto;
+    }
+    .cardapio-container h2{
+        font-size: 2rem;
+    }
+    footer h2{
+        font-size: 2rem;
     }
 }

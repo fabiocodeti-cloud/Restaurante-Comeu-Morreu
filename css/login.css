@@ -25,7 +25,8 @@ body{
     align-items: center;
 }
 .login-card{
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
     background-color: white;
     padding: 40px;
     border-radius: 15px;

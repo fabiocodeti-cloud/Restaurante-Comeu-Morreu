@@ -54,3 +54,21 @@ body {
   background-color: #212529;
   color: white;
 }
+
+@media (max-width: 768px){
+
+    .agenda-table td{
+
+        height: 55px;
+
+        font-size: 0.8rem;
+
+    }
+
+    .agenda-table th{
+
+        font-size: 0.8rem;
+
+    }
+
+}
